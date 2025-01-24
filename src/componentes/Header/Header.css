@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+}
+
+.logoAnime {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.bi-search {
+  font-size: 20px;
+  background-color: #121420;
+  color: white;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(65, 60, 60);
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  display: none;
+}
+@media (min-width: 768px) {
+  input {
+    display: inline;
+    padding: 7px;
+    border: rgb(65, 60, 60);
+    width: 100%;
+  }
+
+  .input {
+    gap: 1px;
+    background-color: #121420;
+    width: 30%;
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .bi-search {
+    width: 20%;
+  }
+}
